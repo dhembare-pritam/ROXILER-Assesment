@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import TransactionsTable from './components/TransactionsTable.js';
-import TransactionsStatistics from './components/TransactionsStatistics.js';
-import TransactionsBarChart from './components/TransactionsBarChart.js';
-import TransactionsPieChart from './components/TransactionsPieChart.js';
+import TransactionsTable from './components/TransactionsTable';
+import TransactionsStatistics from './components/TransactionsStatistics';
+import TransactionsBarChart from './components/TransactionsBarChart';
+import TransactionsPieChart from './components/TransactionsPieChart';
 
 const App = () =>{
   const [month, setMonth] = useState('03'); // Default to March
